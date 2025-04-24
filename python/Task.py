@@ -2,7 +2,7 @@ print("life-science-experiments on CubeSats")
 print("what ist possible? What is not possible?")
 print("What parameters are needed?")
 
-file_path = "exemple.txt"
+file_path = "task finished.txt"
 
 try: 
     with open(file_path, 'x') as file:

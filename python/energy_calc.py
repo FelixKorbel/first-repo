@@ -4,7 +4,7 @@
 import math
 import yaml
 
-with open ("params.yaml", "r") as file : 
+with open ("C:\\Users\\Intership\\Documents\\Felix Git\\first-repo\\python\\params.yaml", "r") as file:
     data= yaml.safe_load(file)
 
 

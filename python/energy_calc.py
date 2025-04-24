@@ -2,7 +2,7 @@
 # Calculate KE and PE
 # Output result to console
 import math
-import yaml 
+import yaml
 
 with open ("params.yaml", "r") as file : 
     data= yaml.safe_load(file)
@@ -11,6 +11,7 @@ with open ("params.yaml", "r") as file :
 v = data["vel"]
 m = data ["mass"]
 g = data ["grav"]
+h = data ["height"]
 #calculate e_kin
 e_kin = 1/2 * m * v**2
 

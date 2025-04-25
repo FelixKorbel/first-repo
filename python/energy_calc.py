@@ -4,11 +4,11 @@
 import math
 import yaml
 
-with open ("C:\\Users\\Intership\\Documents\\Felix Git\\first-repo\\python\\params.yaml", "r") as file:
-    data= yaml.safe_load(file)
+with open ("C:/Users/Internship/Documents/Felix Git/first-repo/python/params.yaml", "r") as file:
+    data = yaml.safe_load(file)
 
 
-v = data["vel"]
+v = data ["vel"]
 m = data ["mass"]
 g = data ["grav"]
 h = data ["height"]

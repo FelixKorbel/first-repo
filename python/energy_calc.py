@@ -8,10 +8,10 @@ with open ("C:/Users/Internship/Documents/Felix Git/first-repo/python/params.yam
     data = yaml.safe_load(file)
 
 
-v = data ["vel"]
-m = data ["mass"]
-g = data ["grav"]
-h = data ["height"]
+v = data ["parameters"] ["vel"]
+m = data ["parameters"] ["mass"]
+g = data ["parameters"] ["grav"]
+h = data ["parameters"] ["height"]
 #calculate e_kin
 e_kin = 1/2 * m * v**2
 

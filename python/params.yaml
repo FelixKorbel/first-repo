@@ -1,3 +1,5 @@
 parameters:
-  mass: 5
-  vel: 8
+  mass: 5 #kg
+  vel: 8 #m/s
+  grav : 9.81 #m/s^2
+  height: 10 #m 
